@@ -122,7 +122,9 @@ export default function InvoiceDetailsPage({
         </CardHeader>
         <CardContent>
           <div className="space-y-6">
-            {mockInvoiceDetails.steps.map((step, index) => (
+            {mockInvoiceDetails.steps.map((step
+            // , index
+          ) => (
               <div key={step.id} className="flex items-start gap-4">
                 <div className="mt-0.5">
                   {step.completed ? (

@@ -1,41 +1,41 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
-/.pnp
-.pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/versions
+/gateway-next-front-end/node_modules
+/gateway-next-front-end/.pnp
+/gateway-next-front-end.pnp.*
+/gateway-next-front-end.yarn/*
+/gateway-next-front-end!.yarn/patches
+/gateway-next-front-end!.yarn/plugins
+/gateway-next-front-end!.yarn/releases
+/gateway-next-front-end!.yarn/versions
 
 # testing
-/coverage
+/gateway-next-front-end/coverage
 
 # next.js
-/.next/
-/out/
+/gateway-next-front-end/.next/
+/gateway-next-front-end/out/
 
 # production
-/build
+/gateway-next-front-end/build
 
 # misc
-.DS_Store
-*.pem
+/gateway-next-front-end/.DS_Store
+/gateway-next-front-end/*.pem
 
 # debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.pnpm-debug.log*
+/gateway-next-front-end/npm-debug.log*
+/gateway-next-front-end/yarn-debug.log*
+/gateway-next-front-end/yarn-error.log*
+/gateway-next-front-end/.pnpm-debug.log*
 
 # env files (can opt-in for committing if needed)
-.env*
+/gateway-next-front-end/.env*
 
 # vercel
-.vercel
+/gateway-next-front-end/.vercel
 
 # typescript
-*.tsbuildinfo
-next-env.d.ts
+/gateway-next-front-end/*.tsbuildinfo
+/gateway-next-front-end/next-env.d.ts
